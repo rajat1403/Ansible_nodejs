@@ -1,6 +1,6 @@
 FROM node:carbon
-WORKDIR /var/KG
-COPY package*.json /var/KG/
+WORKDIR /opt/nodejs
+COPY package*.json /opt/nodejs
 COPY . .
-EXPOSE 5319
+EXPOSE 8000
 CMD [ "npm", "start" ]
