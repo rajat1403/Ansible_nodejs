@@ -1,7 +1,6 @@
 FROM node:carbon
 WORKDIR /var/KG
-COPY package*.json /var/KG
-RUN npm install
+COPY package*.json /var/KG/
 COPY . .
-EXPOSE 8080
+EXPOSE 5319
 CMD [ "npm", "start" ]
