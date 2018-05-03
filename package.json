@@ -1,5 +1,5 @@
 {
-  "name": "docker_nodejs",
+  "name": "kgtestapp",
   "version": "1.0.0",
   "description": "test app",
   "main": "index.js",
