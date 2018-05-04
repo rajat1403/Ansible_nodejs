@@ -1,10 +1,10 @@
 {
-  "name": "kgtestapp",
+  "name": "nodejstest",
   "version": "1.0.0",
   "description": "test app",
   "main": "index.js",
   "scripts": {
-    "start": "node /opt/nodejs/app.js",
+    "start": "node /opt/docker_nodejs/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
