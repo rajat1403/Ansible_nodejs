@@ -3,7 +3,7 @@ var express = require('express')
 var app = express()
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-  res.send('Welcome To Devil World')
+  res.send('Hello World')
 })
 //Launch listening server on port 8080
 app.listen(8000, function () {
